@@ -18,7 +18,7 @@ function App() {
         {filterButton("Success")}
         {filterButton("Fail")}
       </section>
-      <section>{table("")}</section>
+      <section className="board">{table("")}</section>
 
     </div>
   );

@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.App{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+text-align: center;
+font-family: 'Rajdhani', sans-serif;
+color:#4CAF50;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filterLine{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: large;
+  font-weight: bold;
+}
+
+.filterLine button{
+  padding: 10px 24px;
+  background-color: #4CAF50;
   color: white;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  border-style:groove;
 }
 
-.App-link {
-  color: #61dafb;
+.filterLine button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: #4CAF50;
+}
+.actionButton{
+  padding: 10px 24px;
+  background-color: #4CAF50;
+  color: white;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  border-style:groove;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.actionButton button{
+  border-style: none;
+  background-color:#4CAF50;
+  transition-duration: 0.4s;
+  color: white;
+  font-weight:bold;
+}
+
+.actionButton button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: #4CAF50;
+}
+
+thead{
+  background-color: #4CAF50;
+  color:white;
+}
+th{
+  padding: 15px;
+}
+td{
+  border: solid 1px;
+}
+
+table{
+  margin-left: 180px;
+  margin-top: 80px;
+}
+
+/* RESPONSIVE DESIGN EN FONCTION DES RESOLUTIONS LES PLUS UTILISES */
+
+@media screen and (max-width:1920px){
+  section{
+    margin-left: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .filterLine{
+    justify-content: center;
   }
+  .actionButton button{
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width:1024px){
+  
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }

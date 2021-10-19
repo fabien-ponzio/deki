@@ -24,8 +24,8 @@ function table(params) {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>{filterButton("Modifier")}</td>
-                    <td>{filterButton("Supprimer")}</td>
+                    <td className="actionButton">{filterButton("Modifier")}</td>
+                    <td className="actionButton">{filterButton("Supprimer")}</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -35,8 +35,8 @@ function table(params) {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>{filterButton("Modifier")}</td>
-                    <td>{filterButton("Supprimer")}</td>
+                    <td className="actionButton">{filterButton("Modifier")}</td>
+                    <td className="actionButton">{filterButton("Supprimer")}</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -46,8 +46,8 @@ function table(params) {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>{filterButton("Modifier")}</td>
-                    <td>{filterButton("Supprimer")}</td>
+                    <td className="actionButton">{filterButton("Modifier")}</td>
+                    <td className="actionButton">{filterButton("Supprimer")}</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -57,8 +57,8 @@ function table(params) {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>{filterButton("Modifier")}</td>
-                    <td>{filterButton("Supprimer")}</td>
+                    <td className="actionButton">{filterButton("Modifier")}</td>
+                    <td className="actionButton">{filterButton("Supprimer")}</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -68,8 +68,8 @@ function table(params) {
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td>{filterButton("Modifier")}</td>
-                    <td>{filterButton("Supprimer")}</td>
+                    <td className="actionButton">{filterButton("Modifier")}</td>
+                    <td className="actionButton">{filterButton("Supprimer")}</td>
                 </tr>
             </tbody>
         </table>
